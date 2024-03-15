@@ -1,4 +1,4 @@
-<img  alt="portfolio" width="100%" src="https://miro.medium.com/v2/resize:fit:1400/0*s7-847-cMWNrfnyH.gif">
+
 <h1 align="center">Hi 👋, Ritesh Katwe</h1>
 <h3 align="center">A passionate Web developer from India</h3>
 
@@ -12,6 +12,8 @@
 - 💬 Ask me about **Java, HTML, CSS, SQL ,JavaScript**
 
 - 📫 How to reach me **riteshkatwe29@gmail**
+
+- <img  alt="portfolio" width="100%" src="https://miro.medium.com/v2/resize:fit:1400/0*s7-847-cMWNrfnyH.gif">
 <!--
 <h3 align="left">Connect with me:</h3>
 <p align="left">
