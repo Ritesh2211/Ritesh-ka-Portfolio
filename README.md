@@ -11,7 +11,7 @@
 
 - 💬 Ask me about **Java, HTML, CSS, SQL ,JavaScript**
 
-- 📫 How to reach me **riteshkatwe29@gmail.com@gmail.com**
+- 📫 How to reach me **riteshkatwe29@gmail**
 <!--
 <h3 align="left">Connect with me:</h3>
 <p align="left">
