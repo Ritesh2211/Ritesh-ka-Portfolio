@@ -27,3 +27,390 @@
 
 <!--<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ritesh2211&show_icons=true&locale=en&layout=compact" alt="vsmidhun21" /></p>
 
+
+
+
+
+-->
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio</title>
+            <link rel="shortcut icon" type="image/png" href="ic.png">
+            <link rel="stylesheet" href='./style.css'>
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+            <script
+    type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <script
+    nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+            
+        </head>
+        <body>
+        
+            
+            <header class="header">
+                <a href="#" class="logo">Portfolio</a>
+                <nav class="navbar" id="myLinks">
+                    <a href="#Home" style="--i:1" class="active" >Home</a>
+                    <a href="#About" style="--i:2">About</a>
+                    <a href="#Skills" style="--i:3">Skills</a>
+                    <a href="#Projects" style="--i:4">Projects</a>
+                    <a href="#Contact" style="--i:5">Contact</a>
+                </nav>
+            </header>
+        
+            <section class="home" id="Home">
+                <div class="home-content">
+                    
+                    <h3>Hello, It's Me</h3>
+                    <h1 class="my-name">RITESH KATWE</h1>
+                    <h4 style="--i:6">I'm a Engineer who is<br>
+                        passionate in <span class="text"></span></h4>
+                    
+                    <div class="img">
+                        <img src="" class="responsive">
+                    </div>
+
+                    <div class="home-sci">
+                        <a href="https://www.linkedin.com/in/ritesh-katwe"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/rittesshhhh/"style="--i:8" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <!-- <a href=""style="--i:9" target="_blank"><i class='bx bxl-youtube'></i></a>-->
+                        <a href="https://github.com/Ritesh2211"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://twitter.com/RiteshKatwe"style="--i:10" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1Xhd_wcMQ1ii4gCIh7S3f9pZ6Ru7vqOKh/view?usp=sharing" style="--i:11" class="btn-box" target="_blank">Download Resume</a>
+                </div>
+
+                <model-viewer
+                class="robo"
+                src="./models-20240307T042448Z-001/models/robot_playground/scene.gltf" 
+                camera-controls
+                disable-pan
+                disable-zoom
+                interaction-prompt
+                field-of-view="10deg"
+                autoplay="experiment_Object_159"
+                ></model-viewer>
+        
+            </section>
+                
+
+            <section>
+                <div class="about" id="About">
+                    <div class="about-img">
+                    <img src="./img/image for linkedIn.jpg" class="abt-res"> 
+        
+
+                    </div>
+                    <div class="about-text">
+                        <h2>About <span class="me">Me</span></h2>
+                        <p>I'm a dynamic engineering student specializing in Electronics and Telecommunication, with a passion for innovation and a knack for mastering new technologies. From crafting cutting-edge solutions in Java and SQL to architecting full-stack web applications, I thrive on pushing the boundaries of what's possible. Inspired by my experience developing a Seat Occupancy Monitoring System as my major final year project , I've discovered the power of teamwork and collaboration. Now, I'm on the lookout for exciting opportunities to apply my expertise and drive real-world impact. Join me on this journey of discovery and innovation as we shape the future together!"<br>
+                            <br>
+                            <a href="https://drive.google.com/file/d/1Xhd_wcMQ1ii4gCIh7S3f9pZ6Ru7vqOKh/view?usp=sharing" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="Skills">
+            <h1 class="subtitle">My <span>Skills</span></h1>
+                <div class="sec">
+                    <div class="container1">
+                        <h1 class="heading1">Technical Skills</h1>
+                        <div class="Technical-bars">
+
+                            <div class="bar"><i class='bx bxl-html5' style="color: #c9332e;"></i>
+                                <div class="info">
+                                    <span>HTML <span class="addhtml"></span></span>
+                                </div>
+                                <div class="progress-line html">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-css3' style="color: #147bbc;"></i>
+                                <div class="info">
+                                    <span>CSS <span class="addcss"></span></span>
+                                </div>
+                                <div class="progress-line css">
+                                    <span></span>
+                                </div>
+                            </div>
+                            
+                            <div class="bar"><i class='bx bxs-data' style='color:#129bd8' ></i>
+                                <div class="info">
+                                    <span>SQL <span class="addpy"></span></span>
+                                </div>
+                                <div class="progress-line python">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-java' style="color: #c95d2e;"></i>
+                                <div class="info">
+                                    <span>Java <span class="addjava"></span></span>
+                                </div>
+                                <div class="progress-line java">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-javascript' style='color:#d8d212'  ></i>
+                                <div class="info">
+                                    <span>JavaScript<span class="addc"></span></span>
+                                </div>
+                                <div class="progress-line cpls">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-jquery' style='color:#129bd8' ></i>
+                                <div class="info">
+                                    <span>jQuery<span class="addc"></span></span>
+                                </div>
+                                <div class="progress-line cpls">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-bootstrap' style='color:#6712d8'  ></i>
+                                <div class="info">
+                                    <span>BootStrap<span class="addc"></span></span>
+                                </div>
+                                <div class="progress-line cpls">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-git' style='color:#d8122c'  ></i>
+                                <div class="info">
+                                    <span>Git<span class="addc"></span></span>
+                                </div>
+                                <div class="progress-line cpls">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="bar"><i class='bx bxl-github' style='color:#f9f9fb'  ></i>
+                                <div class="info">
+                                    <span>Github<span class="addc"></span></span>
+                                </div>
+                                <div class="progress-line cpls">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container2">
+                        <model-viewer class="computer-model"
+                        src="./models-20240307T042448Z-001/models/desk.glb"
+                        camera-controls
+                        disable-pan
+                        disable-zoom
+                        interaction-prompt="none"
+                        min-camera-orbit="auto 55deg auto"
+                        max-camera-view="auto 92deg auto"
+                        field-of-view="35.3deg"
+                    ></model-viewer>
+                    <!-- <h1 class="heading1">Professional Skills</h1>
+                        <div class="radial-bars">
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                    <circle class="path path-1" cx="100" cy="80" r="80"></circle>
+                                </svg>
+                                <div class="percentage">60%</div>
+                                <div class="text">Problem Solving</div>
+                            </div>
+
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                    <circle class="path path-2" cx="100" cy="80" r="80"></circle>
+                                </svg>
+                                <div class="percentage">70%</div>
+                                <div class="text">Creativity</div>
+                            </div>
+
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                    <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+                                </svg>
+                                <div class="percentage">80%</div>
+                                <div class="text">Communication</div>
+                            </div>
+
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                    <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                                </svg>
+                                <div class="percentage">90%</div>
+                                <div class="text">Teamwork</div>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </section>
+
+            <section id="Projects">
+                <div id="portfolio" class="services">
+                    <div class="main-text" id="serv">
+                        <h2 >My <span>Projects</span></h2>
+                        <div class="serv-container">
+                            <div class="row">
+                                <img src="./img/simongame.png">
+                                <div class="layer">
+                                    <h5>Simon-Game💻</h5>
+                                    <p>The Game creates a series of tones and lights. Players should press the colored pads in the correct order to
+                                        repeat random sequences of lights.</p>
+
+                                    <a href="https://ritesh2211.github.io/Simon-Game/"><i class='bx bxs-face-mask' style="color: aliceblue;"></i></a>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <img src=".//img/drumkit.jpg">
+                                <div class="layer">
+                                    <h5>Drum Kit🥁 </h5>
+                                    <p>All the instruments can be played by keyboard press or by clicking</p>
+
+                                    <a href="https://ritesh2211.github.io/Drum-Kit-Project/"><i class='bx bxs-low-vision' style="color: aliceblue;"></i></a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <img src="./img/DA.png">
+                                <div class="layer">
+                                    <h5>Chat Application</h5>
+                                    <p>🚧Under Developemt🚧</p>
+
+                                    <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="Services">
+                <div class="project">
+                    <div class="container">
+                        <h1 class="sub-title">My <span>Services</span></h1>
+                        <div class="prj-list">
+                            <div>
+                                <i class='bx bx-code' style="color: #00eeff;"></i>
+                                <h2>Web Development</h2>
+                                <p>Plan, create and code internet sites and web pages with modern and artful design.</p>
+                                
+                            </div>
+                            <div>
+                                <i class='bx bx-cube' style="color: #00eeff;"></i>
+                                <h2>UI / UX Design</h2>
+                                <p>Specialized in creating clean, artful design that are both intuitive and functional.</p>
+                                
+                            </div>
+                            <div>
+                                <i class='bx bxl-android' style="color: #00eeff;"></i>
+                                <h2>Software Development</h2>
+                                <p>Development with knowledge of different technologies.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contacts" id="Contact">
+                <div class="contact-text">
+                    <h2>Contact <span>Me</span></h2>
+                    <!--<h4>Let's Work Together</h4>-->
+                    <div class="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
+                        <div class="container mx-auto">
+                        <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+                            <div class="text-center">
+                            <!--<h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
+                                Contact Us
+                            </h1>-->  
+                            <p class="contact-message">
+                                Fill up the form below to send us a message.
+                            </p>
+                            </div>
+                            <div class="m-7">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                                <input type="hidden" name="access_key" value="760b683f-cdbd-4e8a-a4ee-097627216240" />
+                                <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                                <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                    
+                                <div class="mb-6">
+                                <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                                </div>
+                                <div class="mb-6">
+                                <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
+                                <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                                </div>
+                                <div class="mb-6">
+                                <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label>
+                                <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                                </div>
+                                <div class="mb-6">
+                                <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
+                    
+                                <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+                                </div>
+                                <div class="mb-6">
+                                <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                                    Send Message
+                                </button>
+                                </div>
+                                <p class="text-base text-center text-gray-400" id="result"></p>
+                            </form>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-list">
+                        <li><i class='bx bxs-send'></i>Let's Connect</li>
+                        <!--<li><i class="bx bxs-phone-call" ></i>8903909217</li>-->
+                    
+                    <div class="contact-icons">
+                        <a href="https://github.com/Ritesh2211" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/rittesshhhh/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ritesh-katwe"target="_blank"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://twitter.com/RiteshKatwe"style="--i:10" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="last-text">
+                <p>Developed by Ritesh Katwe <i class='bx bx-copyright' style="color: white;"></i> 2024</p>
+                
+            </div>
+            <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+            <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+            <script src="./script.js"></script>
+        </body>  
+    </html>
+
+
+
