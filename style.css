@@ -154,7 +154,7 @@ model-viewer{
     color: #000;
     box-shadow: 0 0 20px #0ef;
 }
-/*
+
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
@@ -174,32 +174,7 @@ model-viewer{
 .btn-box:hover {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
-*/
-.btn {
-    font-size: 1.2rem;
-    padding: 1rem 2.5rem;
-    border: none;
-    outline: none;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: rgb(14, 14, 26);
-    color: rgb(234, 234, 234);
-    font-weight: 700;
-    transition: 0.6s;
-    box-shadow: 0px 0px 60px #1f4c65;
-    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-  }
-  
-  .btn:active {
-    scale: 0.92;
-  }
-  
-  .btn:hover {
-    background: rgb(2,29,78);
-    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
-    color: rgb(4, 4, 38);
-  }
+
 .img {
     display: inline-block;
     left: 55%;
@@ -285,7 +260,7 @@ model-viewer{
     text-align: justify;
     text-justify: inter-word;
 }
-/*
+
 .abtbtn-box {
     display: inline-block;
     padding: 12px 28px;
@@ -302,7 +277,7 @@ model-viewer{
 .abtbtn-box:hover {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
-*/
+
 
 /* Skills */
 .computer-model{
